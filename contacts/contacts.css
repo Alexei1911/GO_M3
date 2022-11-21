@@ -1,0 +1,31 @@
+.contacts__list {
+  padding-left: 130px;
+}
+
+.contacts-section {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.contacts__image {
+  float: left;
+  margin-right: 40px;
+}
+
+.contacts__wrapper {
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  top: 71px;
+  left: 630px;
+  width: 680px;
+  height: 274px;
+}

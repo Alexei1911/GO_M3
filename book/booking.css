@@ -1,0 +1,118 @@
+.booking__wrapper {
+  padding: 80px 130px;
+  background-color: #440F51;
+  position: relative;
+}
+
+fieldset {
+  border: 0 none;
+}
+
+.legend__main {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.input__halls {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.label__halls {
+  width: 250px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 7px 15px;
+}
+
+.entertainment__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.console, .table-games, .additional {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 22px;
+}
+
+.entertainment__legend {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.entertainment__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.date-and-time {
+  width: 134px;
+  height: 52px;
+}
+
+.booking__input {
+  width: 280px;
+  height: 52px;
+}
+
+.date-and-time__small-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 32px;
+}
+
+.date-and-time__wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 36px 50px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.number, .large-input {
+  width: 300px;
+}
+
+.booking__button {
+  position: absolute;
+  top: 994px;
+  left: 910px;
+  width: 300px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #6C0287;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}

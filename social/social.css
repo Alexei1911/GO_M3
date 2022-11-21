@@ -1,0 +1,18 @@
+.social__item {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.social {
+
+}
+
+.social__list {
+  padding-left: 130px;
+  margin-bottom: 101px;
+}

@@ -1,0 +1,81 @@
+.about {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about__text-paragraph {
+  margin: 0 0 30px;
+}
+
+.about__quote-paragraph {
+  font-size: 44px;
+ }
+
+.about__quote-paragraph:before {
+  content: "\275D";
+  color: #6C0287;
+;
+}
+
+.about__quote-paragraph:after {
+  content: "\275E";
+  color: #6C0287;
+}
+
+cite {
+  text-transform: none;
+ }
+
+.about__quote-cite {
+  width: 250px;
+  font-size: 20px;
+  padding-left: 220px;
+  margin-top: 39px;
+  text-align: left;
+}
+
+
+.photo-about-us {
+  background-image: url("img/photos_1.jpg");
+  width: 600px;
+  height: 596px;
+  margin-right: 80px;
+  margin-left: 130px;
+}
+
+.photo-about-us, .about__text-wrapper {
+  display: inline-block;
+}
+
+.about__text-wrapper {
+  width: 500px;
+  vertical-align: top;
+ }
+
+.about__quote-cite {
+  position: relative;
+}
+
+.photo__wrapper, .photo__quote {
+  display: inline-block;
+}
+
+.photo__wrapper {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.photo__wrapper {
+  background-image: url("img/Ellipse_2.png");
+  width: 80px;
+  height: 80px;
+}
+
+.about__text {
+  margin-bottom: 59px;
+}
+
+.photo__quote {
+  width: 280px;
+}

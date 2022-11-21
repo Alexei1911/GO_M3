@@ -1,0 +1,25 @@
+@import "normalize.css";
+
+@import "global.css";
+
+@import "style.css";
+
+@import url(../background-banner/background-banner.css);
+
+@import url(../halls/halls.css);
+
+@import url(../book/booking.css);
+
+@import url(../about/about.css);
+
+@import url(../faq/faq.css);
+
+@import url(../contacts/contacts.css);
+
+@import url(../social/social.css);
+
+@import url(../feedback/feedback.css);
+
+@import url(../navigation/nav.css);
+
+@import url(../services/services.css);

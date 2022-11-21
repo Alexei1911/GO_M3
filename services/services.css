@@ -1,0 +1,67 @@
+.services__wrapper {
+  padding: 0 130px;
+}
+
+.services__block-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px 20px;
+}
+
+.services__block {
+  padding: 166px 0 0 40px;
+}
+
+.services__block-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.services__block_VR {
+  background-image: url(../services/img/VR.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.services__block_audio {
+  background-image: url(../services/img/audio.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.services__block_Karaoke {
+  background-image: url(../services/img/Karaoke.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.services__block_table-games {
+  background-image: url(../services/img/table_games.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.services__block_movie-services {
+  background-image: url(../services/img/movie_services.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}
+
+.services__block_playstation {
+  background-image: url(../services/img/Playstation.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 228px;
+}

@@ -1,0 +1,100 @@
+.banner {
+  padding: 0 0 50px;
+}
+
+.banner__wrapper {
+  background-image: url("../background-banner/img/VR_glasses.png");
+  background-position: 635px 207px;
+  background-repeat: no-repeat;
+  background-size: 675px 762px;
+  width: 1440px;
+  height: 882px;
+}
+
+.banner__heading {
+  padding-left: 130px;
+  text-align: left;
+}
+
+.banner__text {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 230px;
+}
+
+.container {
+  position: relative;
+}
+
+.banner__block {
+  position: absolute;
+ }
+
+.banner__block-1 {
+  left: 130px;
+  top: 376px;
+}
+
+.banner__block-2 {
+  left: 363px;
+  top: 411px;
+}
+
+
+.banner__block-text {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+}
+
+.banner__block-text_violet {
+  text-align: center;
+  color: #CD06FF;
+  font-weight: 900;
+}
+
+.banner__block-text_violet-1 {
+  font-size: 100px;
+  line-height: 141px;
+}
+
+.banner__block-text_violet-2 {
+  font-size: 75px;
+  line-height: 106px;
+  text-transform: uppercase;
+}
+
+.banner__button {
+  position: absolute;
+  top: 735px;
+  left: 130px;
+  width: 374px;
+  height: 80px;
+  background-color: #6C0287;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.banner__circle-image {
+  position: absolute;
+  top: 782px;
+  left: 669px;
+}
+
+.banner__line1-image {
+  position: absolute;
+  top: 824.63px;
+  left: 703.43px;
+}
+
+.banner__line2-image {
+  position: absolute;
+  top: 824.63px;
+  left: 716.29px;
+}
