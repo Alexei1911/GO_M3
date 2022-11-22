@@ -43,3 +43,19 @@
   border-radius: 10px;
   background-color: #000;
 }
+
+.nav__button:hover {
+  background-color: #6C0287;
+  border: 3px solid #6C0287;
+}
+
+.nav__button:active {
+  background-color: #640AA3;
+  border-color: #000;
+}
+
+.nav__button:focus {
+  background-color: #6C0287;
+  border: 3px solid #6C0287;
+}
+

@@ -116,3 +116,36 @@ fieldset {
   line-height: 28px;
   text-transform: uppercase;
 }
+
+.label__halls:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+}
+
+.label__halls:active {
+  background-color: #6C0287;
+  border: 3px solid #fff;
+}
+
+.label__halls:focus {
+  background-color: #fff;
+  border: 3px solid #640AA3;
+}
+
+.booking__button:hover {
+  background-color: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.booking__button:active {
+  background-color: #EADEED;
+}
+
+.booking__button:focus {
+  background-color: #fff;
+  border: 3px solid #6C0287;
+}
+
+.date-and-time:focus, .booking__input:focus {
+  border: 2px solid #CD06FF;
+}

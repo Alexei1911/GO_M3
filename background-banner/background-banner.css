@@ -98,3 +98,15 @@
   top: 824.63px;
   left: 716.29px;
 }
+
+.banner__button:hover {
+  background-color: #840AA3;
+}
+
+.banner__button:active {
+  background-color: #640AA3;
+}
+
+.banner__button:focus {
+  background-color: #840AA3;
+}
