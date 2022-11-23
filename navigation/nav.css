@@ -42,6 +42,8 @@
   border: 3px solid #CD06FF;
   border-radius: 10px;
   background-color: #000;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 
 .nav__button:hover {

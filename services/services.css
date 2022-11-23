@@ -10,6 +10,7 @@
 
 .services__block {
   padding: 166px 0 0 40px;
+  transition-duration: 0.5s;
 }
 
 .services__block-text {
@@ -64,4 +65,8 @@
   background-size: contain;
   width: 380px;
   height: 228px;
+}
+
+.services__block:hover {
+  transform: scale(1.1);
 }
