@@ -83,24 +83,6 @@
   transition-duration: 0.5s;
 }
 
-.banner__circle-image {
-  position: absolute;
-  top: 782px;
-  left: 669px;
-}
-
-.banner__line1-image {
-  position: absolute;
-  top: 824.63px;
-  left: 703.43px;
-}
-
-.banner__line2-image {
-  position: absolute;
-  top: 824.63px;
-  left: 716.29px;
-}
-
 .banner__button:hover {
   background-color: #840AA3;
 }
@@ -111,4 +93,51 @@
 
 .banner__button:focus {
   background-color: #840AA3;
+}
+
+.banner__arrow {
+  background-image: url("../background-banner/img/circle-full.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  top: 782px;
+  left: 669px;
+  transition-duration: 0.5s;
+  transition-property: background-image;
+}
+
+.banner__arrow:hover {
+  background-image: url("../background-banner/img/down-hover.png");
+ /* background-size: contain;
+  background-repeat: no-repeat;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  top: 782px;
+  left: 669px;*/
+}
+
+.banner__arrow:active {
+  background-image: url("../background-banner/img/down-active.png");
+ /* background-size: contain;
+  background-repeat: no-repeat;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  top: 782px;
+  left: 669px;*/
+}
+
+.banner__link:focus {
+  background-image: url("../background-banner/img/down-focus.png");
+  outline: 1px solid #CD06FF;
+  /*background-size: contain;
+  background-repeat: no-repeat;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  top: 782px;
+  left: 669px;*/
 }

@@ -9,6 +9,25 @@
   text-decoration: none;
 }
 
+.contacts__item {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.contacts__link {
+  transition-duration: 0.5s;
+}
+
+/*
+.contacts__item:hover {
+  color: #CD06FF;
+}
+*/
+
+.contacts__link:hover {
+  color: #CD06FF !important;
+}
+
 .contacts__item:not(:last-child) {
   margin-bottom: 23px;
 }

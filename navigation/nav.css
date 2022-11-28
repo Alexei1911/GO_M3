@@ -21,6 +21,14 @@
   align-items: center;
 }
 
+.nav__list-item {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.nav__list-item:hover {
+  color: #CD06FF;
+}
 
 .nav__list-text {
   font-family: Arial, sans-serif;

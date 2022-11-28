@@ -4,6 +4,24 @@
   height: 48px;
 }
 
+.social__svg {
+  fill: white;
+  transition-duration: .5s;
+}
+
+.social__svg:hover {
+  fill: #EADEED;
+}
+
+.social__svg:active {
+  fill: #CD06FF;
+}
+
+.social__svg:focus {
+  fill: #EADEED;
+  outline: 1px solid #CD06FF;
+}
+
 .social__item:not(:last-child) {
   margin-right: 28px;
 }
@@ -11,4 +29,32 @@
 .social__list {
   padding-left: 130px;
   margin-bottom: 101px;
+}
+
+.copyright__wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 898px;
+  padding-top: 177px;
+  padding-left: 130px;
+}
+
+.social__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.mail {
+  padding-left: 1175px;
+}
+
+.social__link-mail {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.social__link-mail:hover {
+  color: #CD06FF !important;
 }

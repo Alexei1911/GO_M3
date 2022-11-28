@@ -34,10 +34,70 @@
   right: 100px;
 }
 
+.question__item:hover:nth-child(odd)::after {
+  content: "";
+  display: block;
+  background-image: url("../faq/icon/open-purple-hover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
+.question__item:active:nth-child(odd)::after {
+  content: "";
+  display: block;
+  background-image: url("../faq/icon/close-purple-active.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
 .question__item:nth-child(even)::after{
   content: "";
   display: block;
   background-image: url("../faq/icon/open.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
+.question__item:hover:nth-child(even)::after{
+  content: "";
+  display: block;
+  background-image: url("../faq/icon/open-hover.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
+.question__item:active:nth-child(even)::after{
+  content: "";
+  display: block;
+  background-image: url("../faq/icon/open-active.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 40px;
