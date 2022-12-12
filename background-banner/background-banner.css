@@ -51,7 +51,7 @@
 
 .banner__block-text_violet {
   text-align: center;
-  color: #CD06FF;
+  color: var(--color-one, #CD06FF);
   font-weight: 900;
 }
 
@@ -72,9 +72,9 @@
   left: 130px;
   width: 374px;
   height: 80px;
-  background-color: #6C0287;
+  background-color: var(--color-two, #6C0287);
   border-radius: 10px;
-  color: #fff;
+  color: var(--main-color, #fff);
   font-size: 26px;
   font-weight: 700;
   line-height: 30px;
@@ -84,15 +84,15 @@
 }
 
 .banner__button:hover {
-  background-color: #840AA3;
+  background-color: var(--color-six, #840AA3);
 }
 
 .banner__button:active {
-  background-color: #640AA3;
+  background-color: var( --color-five, #640AA3);
 }
 
 .banner__button:focus {
-  background-color: #840AA3;
+  background-color: var(--color-six, #840AA3);
 }
 
 .banner__arrow {
@@ -132,7 +132,7 @@
 
 .banner__link:focus {
   background-image: url("../background-banner/img/down-focus.png");
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-one, #CD06FF);
   /*background-size: contain;
   background-repeat: no-repeat;
   width: 97px;

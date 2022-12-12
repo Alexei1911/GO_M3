@@ -13,13 +13,12 @@
 
 .about__quote-paragraph:before {
   content: "\275D";
-  color: #6C0287;
-;
+  color: var(--color-two, #6C0287);
 }
 
 .about__quote-paragraph:after {
   content: "\275E";
-  color: #6C0287;
+  color: var(--color-two, #6C0287);
 }
 
 cite {

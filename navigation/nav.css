@@ -27,7 +27,7 @@
 }
 
 .nav__list-item:hover {
-  color: #CD06FF;
+  color: var(--color-one, #CD06FF);
 }
 
 .nav__list-text {
@@ -46,26 +46,26 @@
   text-transform: uppercase;
   width: 280px;
   height: 55px;
-  color: #fff;
-  border: 3px solid #CD06FF;
+  color: var(--main-color, #fff);
+  border: 3px solid var(--color-one, #CD06FF);
   border-radius: 10px;
-  background-color: #000;
+  background-color: var(--color-four, #000);
   transition-property: background-color, color;
   transition-duration: 0.5s;
 }
 
 .nav__button:hover {
-  background-color: #6C0287;
-  border: 3px solid #6C0287;
+  background-color: var(--color-two, #6C0287);
+  border: 3px solid var(--color-two, #6C0287);
 }
 
 .nav__button:active {
-  background-color: #640AA3;
-  border-color: #000;
+  background-color: var(--color-five, #640AA3);
+  border-color: var( --color-four, #000);
 }
 
 .nav__button:focus {
-  background-color: #6C0287;
-  border: 3px solid #6C0287;
+  background-color: var(--color-two, #6C0287);
+  border: 3px solid var(--color-two, #6C0287);
 }
 

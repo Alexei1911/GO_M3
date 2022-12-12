@@ -10,16 +10,16 @@
 }
 
 .social__svg:hover {
-  fill: #EADEED;
+  fill: var(--color-seven, #EADEED);
 }
 
 .social__svg:active {
-  fill: #CD06FF;
+  fill: var(--color-one, #CD06FF);
 }
 
 .social__svg:focus {
-  fill: #EADEED;
-  outline: 1px solid #CD06FF;
+  fill: var(--color-seven, #EADEED);
+  outline: 1px solid var(--color-one, #CD06FF);
 }
 
 .social__item:not(:last-child) {
@@ -56,5 +56,5 @@
 }
 
 .social__link-mail:hover {
-  color: #CD06FF !important;
+  color: var(--color-one, #CD06FF) !important;
 }

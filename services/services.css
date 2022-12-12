@@ -70,3 +70,11 @@
 .services__block:hover {
   transform: scale(1.1);
 }
+
+.services__block:nth-child(2) {
+  margin-top: 70px;
+}
+
+.services__block:nth-child(2n+4) {
+  margin-top: -70px;
+}

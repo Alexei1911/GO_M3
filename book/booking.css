@@ -1,6 +1,6 @@
 .booking__wrapper {
   padding: 80px 130px;
-  background-color: #440F51;
+  background-color: var(--color-three, #440F51);
   position: relative;
 }
 
@@ -36,9 +36,9 @@ fieldset {
 .label__halls {
   width: 250px;
   height: 55px;
-  background-color: #fff;
+  background-color: var(--main-color, #fff);
   border-radius: 8px;
-  color: #000;
+  color: var(--color-four, #000);
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
@@ -49,8 +49,8 @@ fieldset {
 }
 
 .input__halls:checked + .label__halls {
-  background-color: #fff;
-  border: 3px solid #640AA3;
+  background-color: var(--main-color, #fff);
+  border: 3px solid var(--color-five, #640AA3);
 }
 
 .entertainment__wrapper {
@@ -116,9 +116,9 @@ fieldset {
   left: 910px;
   width: 300px;
   height: 60px;
-  background-color: #fff;
+  background-color: var(--main-color, #fff);
   border-radius: 10px;
-  color: #6C0287;
+  color: var(--color-two, #6C0287);
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
@@ -128,34 +128,34 @@ fieldset {
 }
 
 .label__halls:hover {
-  background-color: #EADEED;
-  border: 3px solid #640AA3;
+  background-color: var(--color-seven, #EADEED);
+  border: 3px solid var( --color-five, #640AA3);
 }
 
 .label__halls:active {
-  background-color: #6C0287;
-  border: 3px solid #fff;
+  background-color: var(--color-two, #6C0287);
+  border: 3px solid var(--main-color, #fff);
 }
 
 .label__halls:focus {
-  background-color: #fff;
-  border: 3px solid #640AA3;
+  background-color: var(--main-color, #fff);
+  border: 3px solid var(--color-five, #640AA3);
 }
 
 .booking__button:hover {
-  background-color: #EADEED;
-  border: 3px solid #6C0287;
+  background-color: var(--color-seven, #EADEED);
+  border: 3px solid var(--color-two, #6C0287);
 }
 
 .booking__button:active {
-  background-color: #EADEED;
+  background-color: var(--color-seven, #EADEED);
 }
 
 .booking__button:focus {
-  background-color: #fff;
-  border: 3px solid #6C0287;
+  background-color: var(--main-color, #fff);
+  border: 3px solid var(--color-two, #6C0287);
 }
 
 .date-and-time:focus, .booking__input:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--color-one, #CD06FF);
 }

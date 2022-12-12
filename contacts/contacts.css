@@ -25,7 +25,7 @@
 */
 
 .contacts__link:hover {
-  color: #CD06FF !important;
+  color: var(--color-one, #CD06FF) !important;
 }
 
 .contacts__item:not(:last-child) {

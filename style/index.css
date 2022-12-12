@@ -4,6 +4,8 @@
 
 @import "style.css";
 
+@import "var.css";
+
 @import url(../background-banner/background-banner.css);
 
 @import url(../halls/halls.css);
